@@ -31,7 +31,7 @@ flowchart TD
 ```
 
 A recuperação e o re-ranking usam os textos em inglês. A tradução acontece depois da seleção de evidências e não interfere no ranking. Na etapa de anotação, a interface lê o JSONL pronto sem executar modelos. Com `--no-translation`, o pré-processador pula a tradução.
-
+ 
 ### Recuperação híbrida: BM25 + cosseno + RRF
 
 O modo padrão é **`--retrieval-mode hybrid`**:
