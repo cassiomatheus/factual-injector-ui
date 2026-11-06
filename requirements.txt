@@ -1,0 +1,6 @@
+langchain==0.1.13
+langchain-community==0.0.29
+streamlit==1.32.2
+pandas==2.2.1
+spacy==3.7.4
+# Execute: python -m spacy download en_core_web_sm
