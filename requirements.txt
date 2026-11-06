@@ -1,6 +1,17 @@
 langchain==0.1.13
-langchain-community==0.0.29
 streamlit==1.32.2
 pandas==2.2.1
 spacy==3.7.4
-# Execute: python -m spacy download en_core_web_sm
+sentence-transformers==2.5.1
+transformers==4.38.2
+torch==2.2.1
+# Carregamento do GovReport e tokenização do tradutor MarianMT
+datasets==2.18.0
+# Compatível com datasets 2.18 e NumPy 1.26; evita PyArrow recente incompatível.
+pyarrow==16.1.0
+sentencepiece==0.2.0
+sacremoses==0.1.1
+
+# Segmentação sem descarte de sentenças curtas e recuperação vetorial
+pysbd>=0.3.4,<1
+numpy>=1.26,<2
